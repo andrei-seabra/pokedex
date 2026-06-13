@@ -4,7 +4,8 @@ import { useState } from 'react'
 import { Home } from './pages/Home'
 import { Details } from './pages/Details'
 
-import './styles/App.css'
+import './styles/Details.css'
+import './styles/Home.css'
 
 export function App() {
   const [count, setCount] = useState(0);
