@@ -32,7 +32,7 @@ export function Home() {
             <Header />
             <div className='home-loading'>
                 <img className='loading-spinner' src={LoadingSpinner} />
-                <h1 className='title'>Carregando...</h1>
+                <h1 className='loading-title'>Carregando...</h1>
             </div>
             <Footer />
             </>

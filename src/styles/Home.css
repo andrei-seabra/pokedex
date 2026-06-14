@@ -125,7 +125,7 @@ a:focus, a:focus-visible {
 
 .home-loading {
   width: 100vw;
-  height: 73.1vh;
+  height: 73.5vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -134,7 +134,17 @@ a:focus, a:focus-visible {
 
 .loading-spinner {
   width: 50vw;
+  max-height: 25vh;
   animation: spin 1s linear infinite;
+}
+
+.loading-title {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+  font-size: x-large;
+  text-align: center;
+  margin: 1rem 0 1rem 0;
+  color: #1E1E1E;
 }
 
 @keyframes spin {

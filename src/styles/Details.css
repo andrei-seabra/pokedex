@@ -132,6 +132,82 @@
     height: 100%;
 }
 
+/* Tablet */
+@media (width >= 768px) {
+    .exit-button {
+        width: 4vw;
+    }
+
+    .pokemon-title {
+        width: 65vw;
+        justify-self: center;
+        margin: 2.5rem 0 2.5rem 0;
+    }
+
+    .details-types-list {
+        width: 65vw;
+        justify-self: center;
+    }
+
+    .details-pokemon-img {
+        width: 50vw;
+    }
+
+    .details-container {
+        width: 60vw;
+    }
+
+    .details-label {
+        width: 20%;
+    }
+}
+
+/* Laptop */
+@media (width >= 1024px) {
+    .exit-button {
+        width: 3vw;
+    }
+
+    .pokemon-title {
+        width: 55vw;
+    }
+
+    .details-types-list {
+        width: 55vw;
+    }
+
+    .details-pokemon-img {
+        width: 40vw;
+    }
+
+    .details-container {
+        width: 45vw;
+    }
+}
+
+/* Desktop */
+@media (width >= 1440px) {
+    .exit-button {
+        width: 2vw;
+    }
+
+    .pokemon-title {
+        width: 50vw;
+    }
+
+    .details-types-list {
+        width: 50vw;
+    }
+
+    .details-pokemon-img {
+        width: 30vw;
+    }
+
+    .details-container {
+        width: 32.5vw;
+    }
+}
+
 .good { background-color: #22C55E; }
 .medium { background-color: #F59E0B; }
 .bad { background-color: #EF4444; }
