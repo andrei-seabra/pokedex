@@ -80,6 +80,7 @@
 
 .option {
     width: 45%;
+    cursor: pointer;
     text-align: center;
     font-weight: 500;
     color: #1E1E1E;
